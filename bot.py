@@ -1,11 +1,7 @@
 # -*- coding: utf-8 -*-
-from cgitb import text
-from typing import Any
 import telebot
 from telebot import types
-from collections import OrderedDict
 import json
-from datetime import datetime
 
 #res.json es un archivo json donde guardo el token del bot e IDs importantes
 with open('res.json') as json_file:
